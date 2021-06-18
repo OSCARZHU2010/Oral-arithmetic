@@ -1,5 +1,5 @@
 # ----------2021/06/18----------
-# -------------v1.0-------------
+# -----------v1.0 beta----------
 # -----power by Oscar Zhu-------
 from random import *
 def random_text(a,b,c):
