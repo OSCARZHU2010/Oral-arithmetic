@@ -1,5 +1,5 @@
-# ----------2021/06/19----------
-# -------------v2.0-------------
+# ----------2021/06/27----------
+# -------------v3.0-------------
 # -----power by Oscar Zhu-------
 from random import *
 jia=input("请问是否要出加法题(输入y或者n)：")
@@ -22,6 +22,7 @@ for i in range(shuliang):
         if jjcc==1 and jia=="y":
             print(text1,"+",text2)
             num=input("请写下你的答案：")
+            num=int(num)
             if num == text1+text2:
                 print("恭喜你答对了！")
             else:
@@ -30,6 +31,7 @@ for i in range(shuliang):
             if text1>=text2:
                 print(text1,"-",text2)
                 num=input("请写下你的答案：")
+                num=int(num)
                 if num == text1-text2:
                     print("恭喜你答对了！")
                 else:
@@ -37,6 +39,7 @@ for i in range(shuliang):
             else:
                 print(text2,"-",text1)
                 num=input("请写下你的答案：")
+                num=int(num)
                 if num == text2-text1:
                     print("恭喜你答对了！")
                 else:
@@ -44,6 +47,7 @@ for i in range(shuliang):
         elif jjcc==3 and cheng=="y":
             print(text1,"x",text2)
             num=input("请写下你的答案：")
+            num=int(num)
             if num == text1*text2:
                 print("恭喜你答对了！")
             else:
@@ -51,6 +55,7 @@ for i in range(shuliang):
         elif jjcc==4 and chu=="y":
             print(text1,"÷",text2)
             num=input("请写下你的答案：")
+            num=int(num)
             if num == text1/text2:
                 print("恭喜你答对了！")
             else:
@@ -63,6 +68,7 @@ for i in range(shuliang):
                 if jjcc==1 and jia=="y":
                     print(text1,"+",text2)
                     num=input("请写下你的答案：")
+                    num=int(num)
                     if num == text1+text2:
                         print("恭喜你答对了！")
                     else:
@@ -72,6 +78,7 @@ for i in range(shuliang):
                     if text1>=text2:
                         print(text1,"-",text2)
                         num=input("请写下你的答案：")
+                        num=int(num)
                         if num == text1-text2:
                             print("恭喜你答对了！")
                         else:
@@ -79,6 +86,7 @@ for i in range(shuliang):
                     else:
                         print(text2,"-",text1)
                         num=input("请写下你的答案：")
+                        num=int(num)
                         if num == text2-text1:
                             print("恭喜你答对了！")
                         else:
@@ -87,6 +95,7 @@ for i in range(shuliang):
                 elif jjcc==3 and cheng=="y":
                     print(text1,"x",text2)
                     num=input("请写下你的答案：")
+                    num=int(num)
                     if num == text1*text2:
                         print("恭喜你答对了！")
                     else:
@@ -95,6 +104,7 @@ for i in range(shuliang):
                 elif jjcc==4 and chu=="y":
                     print(text1,"÷",text2)
                     num=input("请写下你的答案：")
+                    num=int(num)
                     if num == text1/text2:
                         print("恭喜你答对了！")
                     else:
